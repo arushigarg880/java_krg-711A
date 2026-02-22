@@ -224,10 +224,10 @@ public class Main {
                 AuditLogger.logError(e);
 
             } finally {
-                AuditLogger.log("Attempt finished for UID=" + req.uid +
-                        ", asset=" + req.assetId);
-                System.out.println("----------------------------------");
+                AuditLogger.log("Attempt finished for UID=" + req.uid +", asset=" + req.assetId);
+
             }
         }
     }
+
 }
