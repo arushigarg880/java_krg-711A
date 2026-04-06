@@ -8,7 +8,6 @@ public class Customer {
     private String name;
     private Account account;
 
-\
     public Customer(String customerId, String name) {
         this.customerId = customerId;
         this.name = name;
