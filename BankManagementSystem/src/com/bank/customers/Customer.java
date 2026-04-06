@@ -8,7 +8,7 @@ public class Customer {
     private String name;
     private Account account;
 
-    // Constructor
+\
     public Customer(String customerId, String name) {
         this.customerId = customerId;
         this.name = name;
